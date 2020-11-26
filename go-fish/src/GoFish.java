@@ -11,7 +11,7 @@ public class GoFish {
     private final Player computer;
     private List<Card> deck;
     private final Scanner in;
-    private static boolean[] requestedThisTurn = {false, false, false, false, false, false, false, false, false, false, false, false, false};
+    private static final boolean[] requestedThisTurn = {false, false, false, false, false, false, false, false, false, false, false, false, false};
     private String choice = null;
 
     public GoFish() {

@@ -6,7 +6,7 @@ public class Player {
 
     private final List<Card> hand;
     private final List<String> books;
-    private static int[] recReq = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; //Number of turns until the CPU can request a given rank again
+    private static final int[] recReq = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; //Number of turns until the CPU can request a given rank again
 
     public Player() {
         this.hand = new ArrayList<>();
